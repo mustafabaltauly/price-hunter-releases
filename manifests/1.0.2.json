@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "product_id": "price_hunter",
+  "channel": "stable",
+  "version": "1.0.2",
+  "minimum_updater_version": "1.0.0",
+  "schema_target": 9,
+  "package": {
+    "urls": [
+      "https://github.com/mustafabaltauly/price-hunter-releases/releases/download/v1.0.2/PriceHunter-Update-1.0.2.zip"
+    ],
+    "size": 67644721,
+    "sha256": "c231bd927a0c4a81e3945f007854e55b51ad89ca07b0fe1ae9b9502fde8cd2af"
+  },
+  "release_notes": "PRICE HUNTER 1.0.2\n\nУлучшение значков и отображения версии в Windows.\n\n- Мишень увеличена, белая подложка убрана; прозрачный значок лучше использует место в шапке окна и на панели задач.\n- После успешного обновления автоматически освежаются существующие ярлыки Price Hunter на рабочем столе и в меню «Пуск».\n- Номер версии в списке установленных приложений Windows синхронизируется с работающей программой после подтверждения успешного обновления.\n- Рабочие данные, настройки, лицензия и существующие функции остаются без изменений.\n\nСистемные требования: 64-битная Windows 10 или Windows 11.\nДля отправки писем требуется настроенный классический Outlook в текущем профиле Windows.\n\nОбновление устанавливается поверх Price Hunter 1.0.0 или 1.0.1 с сохранением рабочей базы и файлов. Схема базы остаётся 9.",
+  "mandatory": false,
+  "published_at": "2026-09-08T03:42:30Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "price-hunter-update-2026",
+    "value": "I2Ut3OttW+Zfchb4Yt48q0VKDlCnvPGAOJfcoxzOCtwpr/zhAHyqrya7QvjkT7fawaDaKJitGijzKBLNxeTaDA=="
+  }
+}
